@@ -1,0 +1,19 @@
+﻿  oopProj.cpp
+C:\Users\stavhecht\source\repos\oopProj\oopProj\player.h(24,2): error C2512: 'player': no appropriate default constructor available
+  (compiling source file 'oopProj.cpp')
+  C:\Users\stavhecht\source\repos\oopProj\oopProj\player.h(3,7):
+  see declaration of 'player'
+  
+  player.cpp
+C:\Users\stavhecht\source\repos\oopProj\oopProj\player.h(24,2): error C2512: 'player': no appropriate default constructor available
+  (compiling source file 'player.cpp')
+  C:\Users\stavhecht\source\repos\oopProj\oopProj\player.h(3,7):
+  see declaration of 'player'
+  
+  TextAdveWorld.cpp
+C:\Users\stavhecht\source\repos\oopProj\oopProj\player.h(24,2): error C2512: 'player': no appropriate default constructor available
+  (compiling source file 'TextAdveWorld.cpp')
+  C:\Users\stavhecht\source\repos\oopProj\oopProj\player.h(3,7):
+  see declaration of 'player'
+  
+  Generating Code...
