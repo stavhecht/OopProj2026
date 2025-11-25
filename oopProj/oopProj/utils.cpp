@@ -24,6 +24,7 @@ void hideCursor()
 	CONSOLE_CURSOR_INFO CURSOR;
 	CURSOR.dwSize = 1;
 	CURSOR.bVisible = FALSE;
+	ShowCursor(FALSE);
 	SetConsoleCursorInfo(myconsole, &CURSOR);//second argument need pointer
 }
 

@@ -5,9 +5,11 @@
 
 class TextAdveWorld {
 	enum { ESC = 27 };
-	player p[2] = { player('$', Color::LIGHTBLUE), player('&', Color::LIGHTGREEN) };
+	player p[2];
 
 public:
+	TextAdveWorld() : p{ player('$', Color::LIGHTBLUE), player('&', Color::LIGHTGREEN) } {};
+;
 	void init();
 	void run();
 };
