@@ -1,0 +1,14 @@
+#pragma once
+#include "Color.h"
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <windows.h>
+using namespace std;
+
+void gotoxy(int x, int y);
+void setTextColor(Color);
+void hideCursor();
+void clear_screen();
+
