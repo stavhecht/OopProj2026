@@ -1,14 +1,15 @@
-#ifndef _POINT_H_
-#define _POINT_H_
+#pragma once
+#include "io_utils.h"
 
-#include "utils.h"
 
 class Point {
 	int x = 1, y = 1;
+	char c = '*';
+	friend class Player;
 public:
-	void set(int _x, int _y);
-	void draw(char ch) const;
+	Point() {};
+	Point(char _c) : c(_c) {};
+	void draw(char c);
 	void move(int direction);
 };
 
-#endif
